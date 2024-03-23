@@ -1,3 +1,6 @@
+
+#apenas um exemplo, não um projeto
+
 for x in range(5):
     print(x)
     #repetição do valor inicial 0, até o 4, pois não pode alcançar o valor maximo

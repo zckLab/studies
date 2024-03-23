@@ -1,4 +1,4 @@
 contador = 1
-#ajshd
+#loop infinito
 while contador <= 5:
     print(contador)
