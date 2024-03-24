@@ -2,7 +2,7 @@ from cryptography import fernet
 from OpenSSL import crypto
 
 
-# Função para criptografar a senha usando PyOpenSSL
+# Função para criptografar a senha usando PyOpenSSL.
 def encrypt_with_openssl(password):
     # Aqui você usaria as funções do PyOpenSSL para criptografar a senha
     # Este é apenas um exemplo básico e não deve ser utilizado em produção
