@@ -1,12 +1,13 @@
 import os
 from cryptography.fernet import Fernet
+from OpenSSL import crypto , SSL
 
 files = []
 
 with open("chave.key", "rb") as key:
     secretkey = key.read()
 
-# Verifica se já existe a chave e a carrega, ou a gera e salva
+# Verifica se já existe a chave e a carrega, ou a gera e salva.
 if os.path.exists("chave.key"):
     with open("chave.key", "rb") as chave:
         key = chave.read()
