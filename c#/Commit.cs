@@ -1,6 +1,6 @@
 using System;
 
-public class App {
+public class Main() {
     public static void Main() {
         Console.WriteLine("Sou gay");
         Console.ReadKey();
