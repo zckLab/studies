@@ -8,12 +8,12 @@ for x in range(5):
 numerosPrimos = [1, 2, 3, 5, 7 ,11, 13, 17]
 print(numerosPrimos)
 #insert é usado para adicionar um elemento em um local especifico de uma lista
-#escolha a posição do numero (começa com 0 e vai em diante) e depois o que vc quer inserir
+#escolha a posição do numero (começa com 0 e vai em diante) e depois o que vc quer inserir T
+#TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 numerosPrimos.insert(4, "5.2")
 print(numerosPrimos)
 
 notas = []
-
 for x in range(2):
     codigo_aluno = input("RM: ")
     nota = float(input("Digite sua nota: "))
