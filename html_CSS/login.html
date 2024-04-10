@@ -5,30 +5,9 @@
   </head>
   <body>
     <div class="container">
-      <h1>Login</h1>
-      <form id="login-form">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <p id="email-error" class="error"></p>
-
-        <label for="password">Password:</label>
-        <div class="password-wrapper">
-          <input type="password" name="password" id="password" required>
-          <button type="button" id="toggle-password">
-            <i class="fas fa-eye"></i>
-          </button>
-        </div>
-        <p id="password-error" class="error"></p>
-
-        <button type="submit">Login</button>
-      </form>
-      <p id="sms-sent" class="message">An SMS has been sent to your email address.</p>
-      <div class="sms-form" style="display:none;">
-        <label for="sms-code">Enter the SMS code:</label>
-        <input type="text" name="sms-code" id="sms-code" required>
-        <button type="submit">Verify Code</button>
-      </div>
+      <h1 class="text">Do you want to visit YouTube?</h1>
+      <button class="yes-button" onclick="window.location.href='https://www.youtube.com/'">Yes</button>
+      <button class="no-button" disabled>No</button>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
