@@ -11,12 +11,12 @@ def gerar_senha(comprimento):
 # TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 
 def main():
-    print("Bem-vindo ao gerador de senhas!")
+    print("gerador de senhas")
     while True:
         try:
             comprimento = int(input("Quantos caracteres você deseja em sua senha (entre 8 e 50)? "))
             if comprimento < 8 or comprimento > 50:
-                print("Por favor, escolha um número entre 8 e 50.")
+                print("escolha um número entre 8 e 50.")
             else:
                 senha = gerar_senha(comprimento)
                 print("Sua senha gerada é:", senha)
