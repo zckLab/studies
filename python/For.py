@@ -4,15 +4,16 @@
 for x in range(5):
     print(x)
     #repetição do valor inicial 0, até o 4, pois não pode alcançar o valor maximo
+#TTT T TTT T TT T  TT 
 
 numerosPrimos = [1, 2, 3, 5, 7 ,11, 13, 17]
 print(numerosPrimos)
 #insert é usado para adicionar um elemento em um local especifico de uma lista
-#escolha a posição do numero (começa com 0 e vai em diante) e depois o que vc quer inserir T
+#escolha a posição do numero (começa com 0 e vai em diante) e depois o que vc quer inserir TTT TT TT T TT T TT T
 #TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 numerosPrimos.insert(4, "5.2")
 print(numerosPrimos)
-
+#TTTTTT TTTT 
 notas = []
 for x in range(2):
     codigo_aluno = input("RM: ")
