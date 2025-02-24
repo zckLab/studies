@@ -1,7 +1,7 @@
 // Arquivo: Homens Suados
 
 using System;
-// T
+// cavalos
 class Calculadora {
     public static void Main() {
         double number1 = Convert.ToDouble(Console.ReadLine());
@@ -14,3 +14,5 @@ class Calculadora {
         Console.ReadLine();
     }
 }
+
+// caralho vo bloquiá
